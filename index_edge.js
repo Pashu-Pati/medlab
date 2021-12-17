@@ -204,10 +204,10 @@ var symbols = {
             duration: 12000,
             autoPlay: true,
             timeline: [
-                { id: "eid166", tween: [ "style", "${_a2}", "clip", [0,163,135,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,163,-37.00032424926758,0]}], position: 4729, duration: 144 },
+                { id: "eid166", tween: [ "style", "${_a2}", "clip", [0,163,135,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,163,-37.00032424926758,0]}], position: 729, duration: 144 },
                 { id: "eid193", tween: [ "style", "${_trip}", "opacity", '1', { fromValue: '0.000000'}], position: 1202, duration: 234 },
                 { id: "eid194", tween: [ "style", "${_trip}", "opacity", '0.000000', { fromValue: '1'}], position: 3326, duration: 234 },
-                { id: "eid165", tween: [ "style", "${_a2}", "opacity", '1', { fromValue: '0.000000'}], position: 4766, duration: 234 },
+                { id: "eid165", tween: [ "style", "${_a2}", "opacity", '1', { fromValue: '0.000000'}], position: 66, duration: 7234 },
                 { id: "eid186", tween: [ "style", "${_a2}", "opacity", '0.000000', { fromValue: '1'}], position: 7824, duration: 250 },
                 { id: "eid120", tween: [ "style", "${_t2}", "opacity", '1', { fromValue: '0.000000'}], position: 8154, duration: 234 },
                 { id: "eid121", tween: [ "style", "${_t2}", "opacity", '0.000000', { fromValue: '1'}], position: 11000, duration: 250 },
