@@ -27,73 +27,46 @@ var symbols = {
     content: {
             dom: [
             {
-                id: 's2',
+                id: 'bg',
                 type: 'image',
-                rect: ['8px', '2px','280px','169px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"s2.png",'0px','0px']
+                rect: ['-413px', '144px','682px','383px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"bg.jpg",'0px','0px'],
+                transform: [[],['-90']]
             },
             {
-                id: 'f',
+                id: 't13',
                 type: 'image',
-                rect: ['0px', '-8px','300px','197px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"f.png",'0px','0px']
-            },
-            {
-                id: 'b0',
-                type: 'image',
-                rect: ['-268px', '114px','255px','29px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"b0.png",'0px','0px']
-            },
-            {
-                id: 'a',
-                type: 'image',
-                rect: ['-256px', '61px','255px','46px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"a.png",'0px','0px']
-            },
-            {
-                id: 'a2',
-                type: 'image',
-                rect: ['57px', '76px','155px','22px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"a2.png",'0px','0px']
-            },
-            {
-                id: 'b',
-                type: 'image',
-                rect: ['24px', '121px','217px','16px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"b.png",'0px','0px'],
-                transform: [[],[],[],['0.95','0.95']]
-            },
-            {
-                id: 'le',
-                type: 'image',
-                rect: ['208px', '-10px','90px','188px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"le.png",'0px','0px']
-            },
-            {
-                id: 'a3',
-                type: 'image',
-                rect: ['60px', '74px','150px','23px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"a3.png",'0px','0px']
-            },
-            {
-                id: 'a31',
-                type: 'image',
-                rect: ['59px', '74px','152px','23px','auto', 'auto'],
-                clip: ['rect(-2.39990234375px 152px 23px 0px)'],
-                fill: ["rgba(0,0,0,0)",im+"a31.png",'0px','0px']
-            },
-            {
-                id: 'l2',
-                type: 'image',
-                rect: ['14px', '3px','193px','58px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"l2.png",'0px','0px']
+                rect: ['-450px', '-487px','1023px','1385px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"t1.svg",'0px','0px'],
+                transform: [[],[],[],['0.1','0.1']]
             },
             {
                 id: 't2',
                 type: 'image',
-                rect: ['33px', '157px','186px','17px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",im+"t2.png",'0px','0px'],
-                transform: [[],[],[],['1.2','1.2']]
+                rect: ['-579px', '-31px','1310px','1250px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"t2.svg",'0px','0px','80%','80%'],
+                transform: [[],[],[],['0.1','0.1']]
+            },
+            {
+                id: 'logo',
+                type: 'image',
+                rect: ['-1473px', '-371px','3067px','853px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"logo.svg",'0px','0px','100%','100%'],
+                transform: [[],[],[],['0.1','0.1']]
+            },
+            {
+                id: 't3',
+                type: 'image',
+                rect: ['-519px', '-204px','1160px','1590px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"t3.svg",'0px','0px'],
+                transform: [[],[],[],['0.1','0.1']]
+            },
+            {
+                id: 't',
+                type: 'image',
+                rect: ['-69px', '-503px','257px','1810px','auto', 'auto'],
+                fill: ["rgba(0,0,0,0)",im+"t.svg",'0px','0px','100%','100%'],
+                transform: [[],[],[],['0.1','0.1']]
             }],
             symbolInstances: [
 
@@ -101,87 +74,63 @@ var symbols = {
         },
     states: {
         "Base State": {
-            "${_b}": [
-                ["style", "top", '121px'],
-                ["transform", "scaleY", '0.95'],
-                ["style", "background-position", [-221.05263157895,0], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["transform", "scaleX", '0.95'],
-                ["style", "opacity", '1'],
-                ["style", "left", '24px']
-            ],
-            "${_b0}": [
-                ["style", "top", '114px'],
-                ["transform", "scaleX", '1'],
-                ["style", "height", '29px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '-269px'],
-                ["style", "width", '255px']
-            ],
-            "${_s2}": [
-                ["style", "top", '2px'],
-                ["style", "height", '169px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '8px'],
-                ["style", "width", '280px']
-            ],
-            "${_a}": [
-                ["style", "top", '59px'],
-                ["transform", "scaleY", '1'],
-                ["transform", "scaleX", '1'],
-                ["style", "height", '46px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '-256px'],
-                ["style", "width", '255px']
-            ],
-            "${_le}": [
-                ["style", "top", '-10px'],
+            "${_logo}": [
+                ["style", "top", '-371px'],
                 ["style", "opacity", '0'],
-                ["style", "left", '208px']
+                ["style", "height", '853px'],
+                ["style", "background-size", [100,100], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '-1473px'],
+                ["style", "width", '3067px']
             ],
-            "${_l2}": [
-                ["style", "top", '3px'],
+            "${_t3}": [
+                ["style", "top", '-204px'],
                 ["style", "opacity", '0'],
-                ["style", "left", '14px']
+                ["style", "left", '-519px']
             ],
-            "${_a3}": [
-                ["style", "top", '74px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '60px'],
-                ["style", "background-position", [-154.800781,1.199951171875], {valueTemplate:'@@0@@px @@1@@px'} ]
+            "${_t13}": [
+                ["style", "top", '-487px'],
+                ["style", "clip", [0,1023,-188.33251953125,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+                ["style", "height", '1385px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '-450px'],
+                ["style", "width", '1023px']
             ],
-            "${_a2}": [
-                ["style", "top", '76px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '57px'],
-                ["style", "background-position", [0,26.39990234375], {valueTemplate:'@@0@@px @@1@@px'} ]
+            "${_t1}": [
+                ["style", "left", '-665px'],
+                ["style", "top", '-230px']
             ],
-            "${_a31}": [
-                ["style", "top", '74px'],
-                ["style", "background-position", [-154.799805,0.000244140625], {valueTemplate:'@@0@@px @@1@@px'} ],
-                ["style", "opacity", '1'],
-                ["style", "clip", [-2.39990234375,152,23,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-                ["style", "left", '59px']
+            "${_bg}": [
+                ["style", "top", '143px'],
+                ["transform", "rotateZ", '-90deg'],
+                ["style", "height", '383px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '-150px'],
+                ["style", "width", '682px']
+            ],
+            "${_t12}": [
+                ["style", "top", '-135px'],
+                ["style", "left", '-482px']
             ],
             "${_Stage}": [
-                ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "width", '300px'],
-                ["style", "height", '180px'],
-                ["style", "overflow", 'hidden']
+                ["color", "background-color", 'rgba(255,255,255,1.00)'],
+                ["style", "overflow", 'hidden'],
+                ["style", "height", '670px'],
+                ["style", "width", '120px']
+            ],
+            "${_t}": [
+                ["style", "top", '-503px'],
+                ["transform", "scaleY", '0'],
+                ["transform", "scaleX", '0'],
+                ["style", "height", '1810px'],
+                ["style", "opacity", '0'],
+                ["style", "left", '-69px'],
+                ["style", "width", '257px']
             ],
             "${_t2}": [
-                ["style", "top", '157px'],
-                ["transform", "scaleY", '1.2'],
-                ["transform", "scaleX", '1.2'],
-                ["style", "opacity", '1'],
-                ["style", "left", '33px'],
-                ["style", "background-position", [0,25.454545454545], {valueTemplate:'@@0@@px @@1@@px'} ]
-            ],
-            "${_f}": [
-                ["style", "top", '-8px'],
-                ["style", "height", '197px'],
-                ["style", "opacity", '1'],
-                ["style", "left", '0px'],
-                ["style", "width", '300px']
+                ["style", "top", '-31px'],
+                ["style", "background-size", [80,80], {valueTemplate:'@@0@@% @@1@@%'} ],
+                ["style", "left", '-579px'],
+                ["style", "opacity", '0']
             ]
         }
     },
@@ -189,30 +138,29 @@ var symbols = {
         "Default Timeline": {
             fromState: "Base State",
             toState: "",
-            duration: 8000,
+            duration: 15000,
             autoPlay: true,
             timeline: [
-                { id: "eid29", tween: [ "style", "${_a31}", "opacity", '0', { fromValue: '1'}], position: 2640, duration: 75, easing: "swing" },
-                { id: "eid24", tween: [ "style", "${_a3}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [-154.800781,1.199951171875]}], position: 2895, duration: 175, easing: "swing" },
-                { id: "eid5", tween: [ "style", "${_le}", "opacity", '1', { fromValue: '0'}], position: 370, duration: 435, easing: "easeInOutElastic" },
-                { id: "eid54", tween: [ "style", "${_le}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" },
-                { id: "eid57", tween: [ "style", "${_b0}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" },
-                { id: "eid33", tween: [ "style", "${_a3}", "opacity", '0', { fromValue: '1'}], position: 4695, duration: 75, easing: "swing" },
-                { id: "eid44", tween: [ "style", "${_b0}", "left", '16px', { fromValue: '-269px'}], position: 871, duration: 420, easing: "easeInOutElastic" },
-                { id: "eid20", tween: [ "style", "${_a31}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [-154.799805,0.000244140625]}], position: 1026, duration: 135, easing: "swing" },
-                { id: "eid68", tween: [ "style", "${_s2}", "opacity", '0', { fromValue: '1'}], position: 7925, duration: 75, easing: "swing" },
-                { id: "eid51", tween: [ "style", "${_t2}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,25.454545454545]}], position: 195, duration: 240, easing: "swing" },
-                { id: "eid39", tween: [ "style", "${_a2}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" },
-                { id: "eid35", tween: [ "style", "${_a2}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,26.39990234375]}], position: 4770, duration: 235, easing: "swing" },
-                { id: "eid59", tween: [ "style", "${_t2}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" },
-                { id: "eid56", tween: [ "style", "${_b}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "easeInOutElastic" },
-                { id: "eid17", tween: [ "style", "${_a}", "top", '59px', { fromValue: '59px'}], position: 0, duration: 0 },
-                { id: "eid6", tween: [ "style", "${_a}", "left", '22px', { fromValue: '-256px'}], position: 500, duration: 581, easing: "easeInOutElastic" },
-                { id: "eid67", tween: [ "style", "${_f}", "opacity", '0', { fromValue: '1'}], position: 6731, duration: 75, easing: "swing" },
-                { id: "eid2", tween: [ "style", "${_l2}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 435, easing: "easeInOutCubic" },
-                { id: "eid58", tween: [ "style", "${_l2}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" },
-                { id: "eid47", tween: [ "style", "${_b}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [-221.05263157895,0]}], position: 1161, duration: 210, easing: "easeInOutElastic" },
-                { id: "eid55", tween: [ "style", "${_a}", "opacity", '0', { fromValue: '1'}], position: 6656, duration: 75, easing: "swing" }            ]
+                { id: "eid124", tween: [ "style", "${_t1}", "top", '-230px', { fromValue: '-230px'}], position: 0, duration: 0 },
+                { id: "eid128", tween: [ "style", "${_t12}", "top", '-135px', { fromValue: '-135px'}], position: 0, duration: 0 },
+                { id: "eid137", tween: [ "style", "${_t13}", "clip", [0,1023,1385,0], { valueTemplate: 'rect(@@0@@px @@1@@px @@2@@px @@3@@px)', fromValue: [0,1023,-188.33251953125,0]}], position: 603, duration: 2897 },
+                { id: "eid122", tween: [ "style", "${_bg}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 603 },
+                { id: "eid166", tween: [ "style", "${_bg}", "opacity", '0', { fromValue: '1'}], position: 14000, duration: 1000 },
+                { id: "eid141", tween: [ "style", "${_t2}", "opacity", '1', { fromValue: '0'}], position: 3500, duration: 603 },
+                { id: "eid143", tween: [ "style", "${_t2}", "opacity", '0', { fromValue: '1'}], position: 7731, duration: 603 },
+                { id: "eid121", tween: [ "style", "${_logo}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 603 },
+                { id: "eid163", tween: [ "style", "${_logo}", "opacity", '0', { fromValue: '1'}], position: 14000, duration: 1000 },
+                { id: "eid139", tween: [ "style", "${_t3}", "opacity", '1', { fromValue: '0'}], position: 8334, duration: 603 },
+                { id: "eid164", tween: [ "style", "${_t3}", "opacity", '0', { fromValue: '1'}], position: 14000, duration: 1000 },
+                { id: "eid149", tween: [ "transform", "${_t}", "scaleY", '0.1', { fromValue: '0'}], position: 3276, duration: 1224 },
+                { id: "eid117", tween: [ "style", "${_bg}", "left", '-413px', { fromValue: '-150px'}], position: 0, duration: 15000 },
+                { id: "eid135", tween: [ "style", "${_t13}", "opacity", '1', { fromValue: '0'}], position: 0, duration: 603 },
+                { id: "eid165", tween: [ "style", "${_t13}", "opacity", '0', { fromValue: '1'}], position: 14000, duration: 1000 },
+                { id: "eid140", tween: [ "style", "${_t}", "opacity", '1', { fromValue: '0'}], position: 3897, duration: 603 },
+                { id: "eid162", tween: [ "style", "${_t}", "opacity", '0', { fromValue: '1'}], position: 14000, duration: 1000 },
+                { id: "eid123", tween: [ "style", "${_t1}", "left", '-665px', { fromValue: '-665px'}], position: 0, duration: 0 },
+                { id: "eid127", tween: [ "style", "${_t12}", "left", '-482px', { fromValue: '-482px'}], position: 0, duration: 0 },
+                { id: "eid148", tween: [ "transform", "${_t}", "scaleX", '0.1', { fromValue: '0'}], position: 3276, duration: 1224 }            ]
         }
     }
 }
@@ -227,4 +175,4 @@ Edge.registerCompositionDefn(compId, symbols, fonts, resources, opts);
 $(window).ready(function() {
      Edge.launchComposition(compId);
 });
-})(jQuery, AdobeEdge, "EDGE-2035305");
+})(jQuery, AdobeEdge, "EDGE-5055908");
