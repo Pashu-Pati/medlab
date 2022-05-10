@@ -49,12 +49,13 @@ if(document.addEventListener ){
    htFallbacks={
    };
 
-   aLoader = [
-      { load: "edge_includes/jquery-2.0.3.min.js"},
-      { load: "edge_includes/edge.4.0.0.min.js"},
+ aLoader = [
+      { load: "https://molbuk.ua/jquery-2.0.3.min.js"},
+      { load: "https://molbuk.ua/edge.4.0.0.min.js"},
       { load: "index_edge.js"},
       { load: "index_edgeActions.js"}];
-
+   
+   
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 
 loadResources(aLoader, doDelayLoad);
